@@ -32,10 +32,10 @@ describe("Events Tests", function () {
             });
 
             _.forEach(userNulls, function (event) {
-                console.log(`User name is null for ID : ${event._id}, Hook: ${event.hookname}, Hook Id : ${event.hookid}`);
+                //console.log(`User name is null for ID : ${event._id}, Hook: ${event.hookname}, Hook Id : ${event.hookid}`);
             });
 
-            console.log("Numer of events that have no user id => ", userNulls.length);
+            console.log("Numer of events that have no user name => ", userNulls.length);
         });
     });
 });
