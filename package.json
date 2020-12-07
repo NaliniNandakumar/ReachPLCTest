@@ -5,6 +5,7 @@
     "dependencies": {
         "inquirer": "^7.3.3",
         "lodash": "^4.17.20",
+        "mocha": "^8.2.1",
         "moment": "^2.29.1"
     }
 }
